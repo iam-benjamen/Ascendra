@@ -66,7 +66,7 @@
     --tg-common-color-black: #000;
     --tg-body-color: #39557E;
     --tg-heading-color: #082A5E;
-    --tg-theme-primary: #1363DF;
+    --tg-theme-primary: #0e00d1;
     --tg-theme-secondary: #082A5E;
     --tg-border-1: #ECECEC;
     --tg-border-2: #D0DAE9;
@@ -1207,6 +1207,7 @@ textarea {
     display: -webkit-flex;
     display: flex;
     flex-grow: 1;
+    justify-content: center;
 }
 
 .tgmenu__navbar-wrap ul {
@@ -1218,12 +1219,12 @@ textarea {
     padding: 0;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 0 auto 0 73px;
+    margin: 0 auto;
 }
 
 @media (max-width: 1500px) {
     .tgmenu__navbar-wrap ul {
-        margin: 0 auto 0 40px;
+        margin: 0 auto;
     }
 }
 
@@ -1780,7 +1781,7 @@ textarea {
 }
 
 .logo img {
-    max-width: 150px;
+    max-width: 250px;
 }
 
 .sticky-menu {
@@ -1891,7 +1892,7 @@ textarea {
 }
 
 .tgmobile__menu .nav-logo img {
-    width: 150px;
+    width: 250px;
 }
 
 .tgmobile__menu .navigation {
@@ -11042,7 +11043,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #1363DF;
+    background: #0e00d1;
 }
 
 .cursor-text {
